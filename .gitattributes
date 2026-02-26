@@ -3,3 +3,5 @@
 *.{bat,[bB][aA][tT]} text eol=crlf
 *.jsonl -diff merge=union linguist-generated
 **/genaiscript.d.ts -diff merge=ours linguist-generated
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
